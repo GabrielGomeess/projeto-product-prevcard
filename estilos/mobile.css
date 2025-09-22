@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+/*Styles for Mobile*/
+
 :root {
     --cor01: hsl(0, 0%, 100%);
     --cor02: hsl(30, 38%, 92%);
@@ -27,21 +29,19 @@ html, body{
     font-family: var(--fonte-padrao);
 }
 
-/*Layouts for Mobile*/
-
 main{
     margin: auto;
     margin-top: 1em;
     margin-bottom:auto;
 
     background-color: var(--cor01);
-    width: 300px;
+    width: 350px;
     padding-bottom: 10px;
     border-radius: 10px;
 }
 
 img.perfume-img{
-    width: 300px;
+    width: 350px;
     background-size: contain;
     border-radius: 10px 10px 0px 0px;
 }
