@@ -35,13 +35,13 @@ main{
     margin-bottom:auto;
 
     background-color: var(--cor01);
-    width: 275px;
+    width: 300px;
     padding-bottom: 10px;
     border-radius: 10px;
 }
 
 img.perfume-img{
-    width: 275px;
+    width: 300px;
     background-size: contain;
     border-radius: 10px 10px 0px 0px;
 }
