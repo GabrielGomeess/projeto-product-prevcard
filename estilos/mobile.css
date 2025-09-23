@@ -55,7 +55,7 @@ div > p.title{
     letter-spacing: 0.4em;
 }
 
-div > p.perfume-name{
+div > h1.perfume-name{
     padding: 20px;
     font-family: var(--fonte-texto);
     font-size: 2em;    

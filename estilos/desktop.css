@@ -40,30 +40,30 @@ html, body{
         transform: translate(-50%, -50%);
         
         display: flex;
-        width: 650px;
-        height: 480px;
+        width: 605px;
+        height: 420px;
     }
 
     img.perfume-img-mobile{
     width: 350px;
-    height: 490px;
+    height: 430px;
     background-size: contain;
     border-radius: 10px 10px 10px 10px;
     }
 
     div > p.title{
-    padding: 40px 10px 10px 30px;
+    padding: 30px 10px 0px 30px;
     }
 
-    div > p.perfume-name{
-    padding: 10px 10px 10px 30px ;
-    font-size: 2.2em;
+    div > h1.perfume-name{
+    padding-left: 30px;
+    font-size: 2em;
     line-height: 1em;   
     }
 
     div > p.resume{
-    padding: 20px 10px 10px 30px;
-    font-size: 1.1em;
+    padding: 0px 10px 0px 30px;
+    font-size: 0.9em;
     }
 
     div > p.price{
