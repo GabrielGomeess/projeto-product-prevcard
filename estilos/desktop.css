@@ -23,8 +23,58 @@
 }
 
 html, body{
-    min-width: 97vw;
+    position: relative;
+    min-width: 98vw;
     min-height: 97vh;
     background-color: var(--cor02);
     font-family: var(--fonte-padrao);
+}
+
+@media (orientation: landscape){
+    main{
+        position: absolute;
+
+        top: 50%;
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+        
+        display: flex;
+        width: 650px;
+        height: 480px;
+    }
+
+    img.perfume-img-mobile{
+    width: 350px;
+    height: 490px;
+    background-size: contain;
+    border-radius: 10px 10px 10px 10px;
+    }
+
+    div > p.title{
+    padding: 40px 10px 10px 30px;
+    }
+
+    div > p.perfume-name{
+    padding: 10px 10px 10px 30px ;
+    font-size: 2.2em;
+    line-height: 1em;   
+    }
+
+    div > p.resume{
+    padding: 20px 10px 10px 30px;
+    font-size: 1.1em;
+    }
+
+    div > p.price{
+    padding: 20px 10px 20px 30px;
+    }
+
+    div.cart-button{
+    background-color: var(--cor05);
+    padding: 10px;
+    margin: 10px 30px;
+    
+    }
+
 }

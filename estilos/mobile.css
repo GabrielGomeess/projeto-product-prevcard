@@ -40,14 +40,14 @@ main{
     border-radius: 10px;
 }
 
-img.perfume-img{
+img.perfume-img-mobile{
     width: 350px;
     background-size: contain;
     border-radius: 10px 10px 0px 0px;
 }
 
 div > p.title{
-    padding: 10px 10px 0px 10px;
+    padding: 20px 10px 0px 20px;
     font-family: var(--fonte-titulo);
     font-weight: 400;
     font-size: 0.8em;  
@@ -56,22 +56,22 @@ div > p.title{
 }
 
 div > p.perfume-name{
-    padding: 10px;
+    padding: 20px;
     font-family: var(--fonte-texto);
-    font-size: 1.8em;    
+    font-size: 2em;    
     font-weight: bold;
     color: var(--cor04);
 }
 
 div > p.resume{
-    padding: 10px;
-    font-size: 0.9em;
+    padding: 0px 20px 0px;
+    font-size: 1.1em;
     color: var(--cor03);
-    line-height: 1.7em;
+    line-height: 1.6em;
 }
 
 div > p.price{
-    padding: 10px;
+    padding: 20px 10px 10px 20px;
 }
 
 div > p > span{
@@ -89,7 +89,7 @@ div > p > s{
 div.cart-button{
     background-color: var(--cor05);
     padding: 10px;
-    margin: 10px;
+    margin: 10px 20px;
     color: var(--cor02);
     border-radius: 10px;
 }
